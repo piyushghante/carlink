@@ -85,8 +85,8 @@ def run():
 
     # Create a Streamlit web app
     image = "2f6tcqyn.png"
-    #st.image(image, caption=None, width=None, use_column_width=1, clamp=False, channels="RGB", output_format="auto")
-    #st.title("AI Traffic Advisor ")
+    st.image(image, caption=None, width=None, use_column_width=1, clamp=False, channels="RGB", output_format="auto")
+    st.title("AI Traffic Advisor ")
 
     # Initialize a container for the car details and suggested actions
     details_container = st.container()
@@ -155,3 +155,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+    
